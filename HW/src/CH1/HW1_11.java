@@ -7,15 +7,23 @@ public class HW1_11 {
 				+ "One birth every seven seconds. \n"
 				+ "One death every thirteen seconds. \n"
 				+ "One new immigrant every forty-five seconds.");
-		System.out.println("Population projection per year equals: \n"
+		System.out.println("Population projection per year equation: "
 				+ "Current populations + (birth per year + immigrant per year - death per year)");
-		System.out.print("Population in one year equals: ");
+		System.out.print("Projected population in one year: ");
 		System.out.print((312032496 + ((31536000/7) - (31536000/13) + (31536000/45))));
 		System.out.println();
-		
-		
-		
-		
+		System.out.print("Projected population in two years: ");
+		System.out.print((312032496 + (((31536000/7) - (31536000/13) + (31536000/45) * 2))));
+		System.out.println();
+		System.out.print("Projected population in three years: ");
+		System.out.print((312032496 + (((31536000/7) - (31536000/13) + (31536000/45) * 3))));
+		System.out.println();
+		System.out.print("Projected population in four years: ");
+		System.out.print((312032496 + (((31536000/7) - (31536000/13) + (31536000/45) * 4))));
+		System.out.println();
+		System.out.print("Projected population in five years: ");
+		System.out.print((312032496 + (((31536000/7) - (31536000/13) + (31536000/45) * 5))));
+
 	}
 
 }
